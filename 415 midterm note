@@ -1,3 +1,0 @@
-Admissibility: every heuristic cannot go beyond the real distance
-Consistivity: value between every states cannot go beyond the real distance
-bellman: each iteration O(S*S'*A)
