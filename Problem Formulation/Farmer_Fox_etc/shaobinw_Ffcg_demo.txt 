@@ -1,0 +1,69 @@
+Last login: Mon Jan 15 13:30:48 on ttys000
+-bash: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin: syntax error: operand expected (error token is "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin")
+Wangs-MacBook-Pro:~ Sakamoto$ cd ~/Do
+Documents/ Downloads/ 
+Wangs-MacBook-Pro:~ Sakamoto$ cd ~/Documents/CSE415/a2-starter-code/Farmer_Fox_etc/
+Wangs-MacBook-Pro:Farmer_Fox_etc Sakamoto$ python3 ../Int_Solv_Client.py _Farmer_Fox_etc
+problem_name = _Farmer_Fox_etc
+Int_Solv_Client (Version 1)
+_Farmer_Fox_etc; 0.1
+
+Step 0, Depth 0
+CURRENT_STATE = [-1 ,-1 ,-1 ,-1]
+1: Move the farmer with chicken
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 1
+Operator 1 selected.
+
+Step 1, Depth 1
+CURRENT_STATE = [1 ,-1 ,1 ,-1]
+1: Move the farmer with chicken
+3: Move the farmer with none
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 3
+Operator 3 selected.
+
+Step 2, Depth 2
+CURRENT_STATE = [-1 ,-1 ,1 ,-1]
+0: Move the farmer with fox
+2: Move the farmer with grain
+3: Move the farmer with none
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 0
+Operator 0 selected.
+
+Step 3, Depth 3
+CURRENT_STATE = [1 ,1 ,1 ,-1]
+0: Move the farmer with fox
+1: Move the farmer with chicken
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 1
+Operator 1 selected.
+
+Step 4, Depth 4
+CURRENT_STATE = [-1 ,1 ,-1 ,-1]
+1: Move the farmer with chicken
+2: Move the farmer with grain
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 2
+Operator 2 selected.
+
+Step 5, Depth 5
+CURRENT_STATE = [1 ,1 ,-1 ,1]
+0: Move the farmer with fox
+2: Move the farmer with grain
+3: Move the farmer with none
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 3
+Operator 3 selected.
+
+Step 6, Depth 6
+CURRENT_STATE = [-1 ,1 ,-1 ,1]
+1: Move the farmer with chicken
+3: Move the farmer with none
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 1
+Operator 1 selected.
+
+Step 7, Depth 7
+CURRENT_STATE = [1 ,1 ,1 ,1]
+CONGRATULATIONS!
+You have solved the problem by reaching a goal state.
+Do you wish to continue exploring?
+
+Y or N? >> n
+The session is finished.
+Wangs-MacBook-Pro:Farmer_Fox_etc Sakamoto$ 

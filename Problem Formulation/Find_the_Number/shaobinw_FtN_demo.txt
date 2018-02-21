@@ -1,0 +1,82 @@
+Last login: Mon Jan 15 19:50:27 on ttys000
+-bash: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin: syntax error: operand expected (error token is "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin")
+Wangs-MacBook-Pro:~ Sakamoto$ cd ~/Documents/CSE415/a2-starter-code/Find_the_Number/
+Wangs-MacBook-Pro:Find_the_Number Sakamoto$ python3 ../Int_Solv_Client.py _Find_the_Number.py 7 10
+problem_name = _Find_the_Number.py
+[Errno 2] No such file or directory: '_Find_the_Number.py.py'
+Wangs-MacBook-Pro:Find_the_Number Sakamoto$ python3 ../Int_Solv_Client.py _Find_the_Number 7 10
+problem_name = _Find_the_Number
+Success
+Int_Solv_Client (Version 1)
+Towers of Hanoi; 0.2
+
+Step 0, Depth 0
+CURRENT_STATE = CURRENT_STATE = question_phase: 0
+last_m: None
+possibilities: [0 ,1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10]
+2: Is N divisible by 2 after ...
+3: Is N divisible by 3 after ...
+5: Is N divisible by 5 after ...
+7: Is N divisible by 7 after ...
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 3
+Operator 3 selected.
+
+Step 1, Depth 1
+CURRENT_STATE = CURRENT_STATE = question_phase: 1
+last_m: 3
+possibilities: [0 ,1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10]
+11: ... subtracting 0 ?
+12: ... subtracting 1 ?
+13: ... subtracting 2 ?
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 12
+Operator 12 selected.
+
+Step 2, Depth 2
+CURRENT_STATE = CURRENT_STATE = question_phase: 0
+last_m: None
+possibilities: [1 ,4 ,7 ,10]
+2: Is N divisible by 2 after ...
+3: Is N divisible by 3 after ...
+5: Is N divisible by 5 after ...
+7: Is N divisible by 7 after ...
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 7
+Operator 7 selected.
+
+Step 3, Depth 3
+CURRENT_STATE = CURRENT_STATE = question_phase: 1
+last_m: 7
+possibilities: [1 ,4 ,7 ,10]
+11: ... subtracting 0 ?
+12: ... subtracting 1 ?
+13: ... subtracting 2 ?
+14: ... subtracting 3 ?
+15: ... subtracting 4 ?
+16: ... subtracting 5 ?
+17: ... subtracting 6 ?
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 
+
+Step 3, Depth 3
+CURRENT_STATE = CURRENT_STATE = question_phase: 1
+last_m: 7
+possibilities: [1 ,4 ,7 ,10]
+11: ... subtracting 0 ?
+12: ... subtracting 1 ?
+13: ... subtracting 2 ?
+14: ... subtracting 3 ?
+15: ... subtracting 4 ?
+16: ... subtracting 5 ?
+17: ... subtracting 6 ?
+Enter command: 0, 1, 2, etc. for operator; B-back; H-help; Q-quit. >> 11
+Operator 11 selected.
+
+Step 4, Depth 4
+CURRENT_STATE = CURRENT_STATE = question_phase: 0
+last_m: None
+possibilities: [7]
+CONGRATULATIONS!
+You have solved the problem by reaching a goal state.
+Do you wish to continue exploring?
+
+Y or N? >> N
+The session is finished.
+Wangs-MacBook-Pro:Find_the_Number Sakamoto$ 
